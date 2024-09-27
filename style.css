@@ -3,6 +3,7 @@ body {
     width: 100vw;
     margin: 0px;
     background-color: rgba(0, 0, 0, 1);
+    overflow: hidden;
   }
   
   .rubik-font {
@@ -19,6 +20,7 @@ body {
     z-index: 2;
     transition: transform 500ms cubic-bezier(.13,.53,.38,.97);
     background-color: rgba(0, 0, 0, 1);
+    overflow: hidden;
   }
 
   #overlay-back {
@@ -227,5 +229,6 @@ body {
   transition: all 0.5s ease;
 }
 
-  
-  
+div {
+  overflow: hidden;
+}
