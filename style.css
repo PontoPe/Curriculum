@@ -21,6 +21,7 @@ body {
     transition: transform 500ms cubic-bezier(.13,.53,.38,.97);
     background-color: rgba(0, 0, 0, 1);
     overflow: hidden;
+    pointer-events: none;
   }
 
   #overlay-back {
@@ -31,6 +32,7 @@ body {
     height     : 100%;
     box-shadow: 0px 0px 50px 50px rgba(0,0,0,0.4);
     z-index: 5;
+    pointer-events: none;
 }
 
   #overlay-back-2 {
@@ -42,6 +44,7 @@ body {
     background : #000;
     opacity: .4;
     z-index: 5;
+    pointer-events: none;
   }
 
   #overlay {
@@ -58,6 +61,7 @@ body {
     margin-left: 5%;
     top: 20%;
     text-align: left;
+    pointer-events: none;
   }
 
   #sub-title {
@@ -204,7 +208,7 @@ body {
   display: flex;
   gap: 4vmin;
   position: absolute;
-  left: 50%;
+  left: 32%;
   top: 50%;
   transform: translate(0%, -50%); 
   user-select: none; /* -- Prevent image highlighting -- */
