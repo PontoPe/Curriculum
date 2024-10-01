@@ -49,4 +49,3 @@ function slide () {
 
     window.ontouchmove = e => handleOnMove(e.touches[0]);
 }
-window.addEventListener("DOMContentLoaded", slide(), false);
